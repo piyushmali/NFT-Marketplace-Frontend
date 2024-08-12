@@ -27,7 +27,7 @@ contract NFTMarketplace is ERC721URIStorage {
         _;
     }
 
-    constructor() ERC721("NFTSTORE", "NFTS") {
+    constructor() ERC721("NFTMarketplace", "NFTS") {
         marketplaceOwner = payable(msg.sender);
     }
 
